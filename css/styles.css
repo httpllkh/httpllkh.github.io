@@ -1,3 +1,15 @@
+:root {
+  --bg: #f8f9fa;
+  --surface: #ffffff;
+  --text: #111827;
+  --muted: #374151;
+  --border: #e5e7eb;
+  --accent: #1e90ff;
+  --accent-dark: #0b63c7;
+  --shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  --radius: 12px;
+}
+
 * { box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }
