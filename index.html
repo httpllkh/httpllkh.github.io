@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Портфолио — Frontend разработчик</title>
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="page" id="top">
+  <a class="skip-link" href="#main-content">Перейти к контенту</a>
+
+  <header class="site-header" aria-label="Шапка сайта">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="На главную">Oskar</a>
+
+      <nav class="nav" aria-label="Навигация">
+        <a class="nav-link" href="#portfolio">Портфолио</a>
+        <a class="nav-link" href="#about">Обо мне</a>
+        <a class="nav-link" href="#contact">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="site-main" tabindex="-1">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <h1 id="hero-title">Оскар</h1>
+        <h2 class="hero-role">Frontend разработчик</h2>
+        <p class="hero-text">
+          Делаю интерфейсы на HTML/CSS/JS: адаптив, доступность, нормальная семантика и код, который не стыдно поддерживать.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn" href="#portfolio">Смотреть проекты</a>
+          <a class="btn btn-outline" href="#contact">Написать мне</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio" aria-labelledby="portfolio-title">
+      <div class="container">
+        <h2 id="portfolio-title">Портфолио</h2>
+        <p class="section-lead">
+          6 учебных проектов: верстка, Grid/Flex, формы, a11y и деплой.
+        </p>
+
+        <div class="gallery" role="list">
+          <article class="card" role="listitem">
+            <img class="card-img" src="img/project-1.jpg" alt="Проект 1: лендинг сервиса доставки EcoDelivery" />
+            <div class="card-body">
+              <h3 class="card-title">EcoDelivery — лендинг</h3>
+              <p class="card-text">Семантика HTML5, якоря, изображения с alt, структура секций.</p>
+              <div class="card-meta">
+                <span class="tag">HTML</span><span class="tag">Semantics</span><span class="tag">A11y</span>
+              </div>
+              <a class="card-link" href="#" aria-label="Открыть проект EcoDelivery — лендинг">Открыть</a>
+            </div>
+          </article>
+
+          <article class="card" role="listitem">
+            <img class="card-img" src="img/project-2.jpg" alt="Проект 2: макет с карточками услуг на Flexbox" />
+            <div class="card-body">
+              <h3 class="card-title">Карточки услуг — Flex</h3>
+              <p class="card-text">Flex-контейнер, перенос, gap, гибкие карточки и чистая типографика.</p>
+              <div class="card-meta">
+                <span class="tag">CSS</span><span class="tag">Flexbox</span><span class="tag">Responsive</span>
+              </div>
+              <a class="card-link" href="#" aria-label="Открыть проект Карточки услуг — Flex">Открыть</a>
+            </div>
+          </article>
+
+          <article class="card" role="listitem">
+            <img class="card-img" src="img/project-3.jpg" alt="Проект 3: адаптивный лендинг с медиазапросами" />
+            <div class="card-body">
+              <h3 class="card-title">Responsive landing</h3>
+              <p class="card-text">Mobile-first, breakpoints 768/1024, нормальные отступы и читаемость.</p>
+              <div class="card-meta">
+                <span class="tag">Mobile-first</span><span class="tag">Media</span><span class="tag">Layout</span>
+              </div>
+              <a class="card-link" href="#" aria-label="Открыть проект Responsive landing">Открыть</a>
+            </div>
+          </article>
+
+          <article class="card" role="listitem">
+            <img class="card-img" src="img/project-4.jpg" alt="Проект 4: портфолио на CSS Grid с областями" />
+            <div class="card-body">
+              <h3 class="card-title">Portfolio — Grid areas</h3>
+              <p class="card-text">Основной макет через grid-template-areas, внутри блоков — Flex.</p>
+              <div class="card-meta">
+                <span class="tag">Grid</span><span class="tag">Areas</span><span class="tag">Flex</span>
+              </div>
+              <a class="card-link" href="#" aria-label="Открыть проект Portfolio — Grid areas">Открыть</a>
+            </div>
+          </article>
+
+          <article class="card" role="listitem">
+            <img class="card-img" src="img/project-5.jpg" alt="Проект 5: форма обратной связи с доступностью" />
+            <div class="card-body">
+              <h3 class="card-title">Форма и доступность</h3>
+              <p class="card-text">Label/for, focus-visible, контраст, удобство для клавиатуры.</p>
+              <div class="card-meta">
+                <span class="tag">Forms</span><span class="tag">A11y</span><span class="tag">UX</span>
+              </div>
+              <a class="card-link" href="#" aria-label="Открыть проект Форма и доступность">Открыть</a>
+            </div>
+          </article>
+
+          <article class="card" role="listitem">
+            <img class="card-img" src="img/project-6.jpg" alt="Проект 6: деплой проекта на GitHub Pages" />
+            <div class="card-body">
+              <h3 class="card-title">GitHub Pages — деплой</h3>
+              <p class="card-text">Сборка структуры, проверка путей, отсутствие 404, публикация.</p>
+              <div class="card-meta">
+                <span class="tag">Git</span><span class="tag">Pages</span><span class="tag">Deploy</span>
+              </div>
+              <a class="card-link" href="#" aria-label="Открыть проект GitHub Pages — деплой">Открыть</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title">Обо мне</h2>
+
+        <div class="about-grid">
+          <div class="about-photo">
+            <img src="img/avatar.jpg" alt="Фото Оскара" />
+          </div>
+
+          <div class="about-text">
+            <p>
+              Я frontend разработчик. Моя база — семантическая верстка, адаптивность и понятная структура.
+              Делаю так, чтобы интерфейс не ломался и был удобен на телефоне, планшете и десктопе.
+            </p>
+            <p>
+              В работе держу дисциплину: одинаковые отступы, сетка, аккуратные классы, фокус-стили и нормальный контраст.
+            </p>
+
+            <ul class="about-list">
+              <li>HTML5: семантика, правильная структура</li>
+              <li>CSS3: Grid, Flexbox, mobile-first, адаптив</li>
+              <li>Доступность: alt, label, фокус, контраст</li>
+              <li>Git/GitHub: контроль версий и деплой на Pages</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title">Контакты</h2>
+        <p class="section-lead">Напиши — отвечу по делу. Форма сделана по a11y: label/for + focus.</p>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="field">
+            <label for="name">Имя</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+
+          <div class="field">
+            <label for="topic">Тема</label>
+            <select id="topic" name="topic" required>
+              <option value="">Выберите тему</option>
+              <option value="job">Работа</option>
+              <option value="project">Проект</option>
+              <option value="other">Другое</option>
+            </select>
+          </div>
+
+          <div class="field field-full">
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button class="btn" type="submit">Отправить</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" aria-label="Подвал сайта">
+    <div class="container footer-inner">
+      <p class="footer-text">
+        Email: <a href="mailto:httpllkh@gmail.com">httpllkh@gmail.com</a>
+      </p>
+
+      <ul class="social" aria-label="Социальные сети">
+        <li><a href="#" aria-label="Профиль в GitHub">GitHub</a></li>
+        <li><a href="#" aria-label="Профиль в Telegram">Telegram</a></li>
+        <li><a href="#" aria-label="Профиль в LinkedIn">LinkedIn</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
